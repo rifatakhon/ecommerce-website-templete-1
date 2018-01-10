@@ -1,0 +1,76 @@
+*{margin: 0px; padding: 0px;}
+
+.top-nav{width: 100%; height: 100px; background:#FFFFFF;}
+.wrapper{width: 80%; height: 100px; background: #fff; margin: auto;}
+/*Logo design*/
+.logo{height: 100px; width: 370px; background: #fff; float: left;}
+.logo p a span{color: #294057; font-size: 80px;}
+.logo p a{text-decoration: none; color: #B99867; line-height: 100px; padding-left: 10px; font-size: 40px;}
+
+/*--------------Menu design----------------*/
+.menu{ float: left; width: 720px; height: 100px; background: #fff; margin-left: 0px; overflow: hidden;}
+.menu ul{ list-style: none;}
+.menu ul li{ height: 100px; width: 127px; float: left; border-radius: 5%;}
+.menu ul li a{line-height: 130px; text-transform: uppercase; text-align: center; text-decoration: none; font-weight: bold; color: #294057; display: block;}
+.menu ul li a:hover{background: #fff; color: #B99867;}
+
+/*------------------add to cart button-------------*/
+.add-to-cart-button{height: 100px; width: 150px; background: #294057; float: right;}
+.add-to-cart-button p{text-align: center; line-height: 30px; color: #fff;}
+/*------------------------cover design------------*/
+.cover{height: 800px; width: 80%; margin: auto;}
+.cover button{width: 250px; height: 50px; border-radius: 5%; text-transform: uppercase; background: #294057; color: #fff; border: 2px solid #294057;  position: absolute; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: .9;}
+.cover button:hover{background: #B99867; color: #294057;}
+
+/*----------------------catagories design----------*/
+.categorie{width: 80%; height: 500px; margin: auto; background: #fff;}
+.categorie p{text-transform: uppercase; width: 650px; height: 100px; background: #fff; text-align: center; line-height: 100px; font-size: 60px; margin: auto; color: #294057;}
+.categorie .cat-imag{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 2em;}
+.categorie .cat-imag img{ margin-top: 10px;}
+.categorie .cat-imag img:hover{ opacity: 0.5; filter: alpha(opacity=50);}
+.categorie .cat-button{margin-top: 40px;}
+.cat-button button{text-transform: uppercase; width: 250px; height: 50px; margin-left: 40%; border:2px solid #294057; border-radius: 5%; background: #fff; color: #B99867;}
+.cat-button button:hover{background: #294057; color: #fff; opacity: .9;}
+
+/*-------------pragraph design------*/
+.pragraph{width: 80%; height: 220px; background: #294057; margin: auto;}
+.pragraph p{font-size: 50px; color: #fff; text-align: center; line-height: 200px;}
+
+/*--------------aboutUs design--------*/
+.aboutUs{width: 80%; height: 500px; margin: auto;}
+.aboutUs .content{display: grid; grid-template-columns: 1fr 1fr; margin-top: 5px;}
+.aboutUs .container{width: 100%; height: 500px; background: #fff;}
+.aboutUs .container h5{text-transform: uppercase; color: #B99867; font-size: 50px; width: 300px; height: 100px; text-align: center; line-height: 100px;}
+.aboutUs .container p{width: 65%; height: 260px; background: #fff; color: #C1C0C0; font-size: 23px; margin-top: 5px; padding-left: 20px;}
+.aboutUs .container button{text-transform: uppercase; width: 150px; height: 60px; margin-left: 35%; margin-top: 10px; border:2px solid #294057; border-radius: 5%; background: #fff; color: #B99867;}
+.aboutUs .container button:hover{background: #294057; color: #fff; opacity: .9;}
+
+/*--------------life style--------*/
+.lifeStyle{width: 80%; height: 500px; margin: auto;}
+.lifeStyle .content{display: grid; grid-template-columns: 1fr 1fr; margin-top:0px;}
+.lifeStyle .container{width: 100%; height: 500px; background: #fff; background: #fff;}
+.lifeStyle .container h5{text-transform: uppercase; color: #B99867; font-size: 49px; line-height: 120px; width: 550px; height: 120px; background: #fff; margin-left: 20px;}
+.lifeStyle .container p{width: 70%; height: 200px; background: #fff; color: #C1C0C0; font-size: 23px; margin-top: 10px; padding-left: 30px;}
+.lifeStyle .container button{text-transform: uppercase; width: 250px; height: 60px; margin-left: 5%; margin-top: 10px; border:2px solid #294057; border-radius: 5%; background: #fff; color: #294057;}
+.lifeStyle .container button:hover{background: #B99867; color: #fff; opacity: .9;}
+
+/*-------------contact us design---------*/
+.wrapper{width: 80%; height: 150px; background: #294057; margin: auto;}
+.contact{text-align: center; margin-top: 5px; height: 150px; width: 400px; margin-left: 35%;}
+.contact .container{padding-top: 10px;}
+.contact .container h5{text-transform: uppercase; font-size: 30px; color: #B99867;}
+.contact .container p{margin-top: 5px; font-size: 20px; color: #fff;}
+
+/*--------------footer design----------*/
+footer {width: 80%; height: 250px; margin: auto; background: #434343;}
+.footer{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: .5em; height: 300px; color: #C47728; width: 80%; margin: auto;}
+.footer > .container{padding: 15px;}
+.footer > .container > h5{margin-bottom: 20px; font-size: 16px;}
+.footer > .container li{list-style: none; padding: 3px 0px; margin-top: 3px;}
+.footer > .container > li > a{text-decoration: none; color: white; font-size: 13.5px; font-family: arvo;}
+.footer > .container > li > a:hover{color: #C47728;}
+.footer > .container > .SocialIcon > li{float: left; margin: 15px 0px; padding: 5px;}
+.footer > .container > .SocialIcon > h5{font-size: 16px;}
+.footer > .container > .SocialIcon > li > a > i{ color: white;}
+p{font-size: 20px;}
+a{color: #fff;}
